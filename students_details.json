@@ -1,0 +1,10 @@
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 14,
+    "grade": 9,
+    "school": "Central High School",
+    "bio": "John is an avid reader and enjoys playing soccer with his friends. He is passionate about science and dreams of becoming an engineer.",
+    "interests": ["reading", "soccer", "science"]
+  }

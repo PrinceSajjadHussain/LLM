@@ -1,0 +1,213 @@
+{
+  "cifData": {
+    "msgId": "DGCC20230707170715123456",
+    "statusFlag": "1",
+    "resp": "1569600",
+    "ResponseCode": null,
+    "ResponseDescription": null
+  },
+  "accountData": {
+    "msgId": "DGAC202303031104371234123456",
+    "statusFlag": "1",
+    "resp": "0002009138",
+    "ResponseCode": null,
+    "ResponseDescription": null,
+    "responseMessage": null
+  },
+  "complianceResult": {
+    "ProcessingCode": "ComplianceLink",
+    "TransmissionDatetime": "0105125100",
+    "SystemsTraceAuditNumber": "455016",
+    "ResponseCode": "00",
+    "ResponseDetails": [
+      "Failure"
+    ],
+    "CaseId": "1633835",
+    "CaseStatus": "GWL-False Positive|PEP/False Positive|Private-False Positive",
+    "ImportStatus": "NoChange",
+    "IsHit": "N",
+    "ScreeningStatus": "Failure",
+    "TotalCWL": "0",
+    "TotalGWL": "2",
+    "TotalPEPEDD": "18",
+    "TotalPrivate": "2",
+    "even": true
+  },
+  "data": {
+    "USER_REQUEST": {
+      "primaryDetails": {
+        "idType": "ID-N",
+        "idCardNo": "4220170120537",
+        "title": "Mr.",
+        "fullName": "AFTAB HUSSAIN",
+        "dob": "03-01-1984",
+        "idIssuanceDate": "10-10-2021",
+        "idExpiryDate": "10-10-2030",
+        "mobileNumber": "03212464373",
+        "emailAddress": "samar.haider@jsbl.com"
+      },
+      "basicDetails": {
+        "fatherName": "AFTAB HUSSAIN",
+        "motherName": "ZARINA",
+        "gender": "MALE",
+        "maritalStatus": "M",
+        "nameNextKin": "FOQIA",
+        "relationshipWithNextKin": "3",
+        "politicallyExposedPerson": "false",
+        "politicallyExposedPersonCategory": "",
+        "nationality": "PK",
+        "dualNational": "false",
+        "otherNationality": "",
+        "placeOfBirth": "Karachi",
+        "permanentAddress": "R 10 SECTOR D AMROHA SOCITY KARACHI",
+        "addressType": "Residential - Present",
+        "mailingAddress1": "R 10 SECTOR D AMROHA SOCITY KARACHI",
+        "mailingAddress2": "KARACHI",
+        "province": "Sindh",
+        "city": "Karachi",
+        "preferredBranch": "9001"
+      },
+      "sourceOfIncomeDetails": {
+        "profession": "5100",
+        "salary": "50000",
+        "typeOfAccount": "1087",
+        "employerName": "JS BANK",
+        "officeAddress": "SHAHEEN COMPLEX",
+        "sourceofIncome": "Salaried Person",
+        "designation": "RM"
+      },
+      "accountKycDetails": {
+        "purposeofAccount": "Salary",
+        "expectedMonthlyTransaction": "010",
+        "expectedMonthlyTurnover": "250,000",
+        "geographicalBusinessSpread": "Within Pakistan",
+        "provinceBusinessSpread": "Sindh",
+        "countryBusinessSpread": "PK",
+        "creditYourAccount": "individual",
+        "isCreditorJSAccountHolder": "false",
+        "creditorJSAccountNumber": "",
+        "creditorIndustry": "",
+        "creditorName": ""
+      },
+      "adcCheckBookFacilitiesDetails": {
+        "smsAlerts": "true",
+        "monthlyEStatement": "true",
+        "debitCardType": "Gold Card",
+        "nameonDebitCard": "MUJTABA RIZVI",
+        "chequeBook": "true"
+      },
+      "documentUploadDetails": {
+        "customerPhoto": "customerPhoto.jpeg",
+        "cnicFrontPhoto": "4220114800309.pdf",
+        "cnicBackPhoto": "4240119829363.pdf",
+        "proofBusinessDoc": "4210109347891.pdf",
+        "sourceOfIncome": "",
+        "zakatDeclaration": "",
+        "otherDocument": "",
+        "signature": "4210116948937.pdf"
+      },
+      "undertakingDetails": {
+        "taxResidentOtherCountry": "false",
+        "USCitizen": "false",
+        "acceptanceofTermsConditionsDeclarations": true,
+        "digitalConsentDeclarations": true,
+        "termsConditionsDeclarations": true
+      }
+    }
+  },
+  "history": [
+    {
+      "id": 1,
+      "userName": "Muneeb Ahmed Sheikh",
+      "userEmail": "Muneeb.Sheikh@jsbl.com",
+      "dept": "CCU",
+      "status": 2202,
+      "date": "2023-10-13T12:50:33.489Z",
+      "action": "forward to ASU"
+    },
+    {
+      "id": 2,
+      "userName": "Farhan Ali",
+      "userEmail": "Farhan.Ali16044@jsbl.com",
+      "dept": "ASU",
+      "status": 2203,
+      "date": "2023-10-16T07:43:04.779Z",
+      "action": "Revert Back to CCU"
+    },
+    {
+      "id": 3,
+      "userName": "Farhan Ali",
+      "userEmail": "Farhan.Ali16044@jsbl.com",
+      "dept": "CCU",
+      "status": 2202,
+      "date": "2023-10-16T07:46:08.127Z",
+      "action": "forward to ASU"
+    },
+    {
+      "id": 4,
+      "userName": "Farhan Ali",
+      "userEmail": "Farhan.Ali16044@jsbl.com",
+      "dept": "ASU",
+      "status": 2203,
+      "date": "2023-10-17T07:09:34.616Z",
+      "action": "Forward to ASU Inputter"
+    },
+    {
+      "id": 5,
+      "dept": "ASU",
+      "status": 2203,
+      "date": "2023-10-19T06:06:58.065Z",
+      "action": "Accepted from ASU Authorizer"
+    }
+  ],
+  "backOfficeDto": {
+    "otherDocs": [],
+    "aofForm": "aofForm",
+    "bioVerisys": "bioVerisys",
+    "nadraVerisys": "nadraVerisys"
+  },
+  "kycData": {},
+  "customerVerification": {},
+  "ibanCreationResult": {
+    "msgId": "JPAE20231020120333991288",
+    "statusFlag": "1",
+    "cif": "1569494",
+    "category": "6024-Digital Account - Saving",
+    "currency": "USD",
+    "title": "SHER ALI",
+    "balance": "",
+    "openDate": "20220704",
+    "iban": " PK92JSBL9149000002009138"
+  },
+  "cheaqueBookResult": {
+    "processingCode": "CheckBook",
+    "merchantType": "0088",
+    "traceNo": "123456",
+    "dateTime": "20231020003440",
+    "responsecode": "200",
+    "Response": {
+      "mesaage": "success",
+      "code": 0,
+      "ticketNo": "CHQB-2310000057"
+    }
+  },
+  "signatureImageResult": "Request failed with status code 500",
+  "debitCardCreationResult": {
+    "processingCode": "ImportCard",
+    "merchantType": "0088",
+    "traceNo": "5500116",
+    "dateTime": "20231020000583",
+    "responseCode": "98",
+    "responseDetails": [
+      "traceNo missing or invalid"
+    ]
+  },
+  "debitBlockRemovalResult": {
+    "msgId": "DGPR20231020120338390065",
+    "channelId": "0077",
+    "requestDate": "20231020",
+    "accountNumber": "0002009138",
+    "postingRestrict": "50",
+    "ResponseDescription": "No of Tags in Request is not equal to 4"
+  }
+}
